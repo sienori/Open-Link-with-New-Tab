@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "Open Link with New Tab"
+    },
+    "extDescription": {
+        "message": "Open the link in a new tab depending on the setting."
+    },
+    "optionLabel":{
+        "message": "Open link in new tab"
+    },
+    "optionLabel0":{
+        "message": "Follow the web page settings (Firefox Initial Settings)"
+    },
+    "optionLabel1":{
+        "message": "Open a link to a different site on a tab"
+    },
+    "optionLabel2":{
+        "message": "Open all links with tabs"
+    }
+}

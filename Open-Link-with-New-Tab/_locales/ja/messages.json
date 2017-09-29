@@ -1,0 +1,20 @@
+{
+    "extName": {
+        "message": "新しいタブでリンクを開く Open Link with New Tab"
+    },
+    "extDescription": {
+        "message": "リンクを設定に応じて新しいタブで開きます。"
+    },
+    "optionLabel": {
+        "message": "リンクを新しいタブで開く"
+    },
+    "optionLabel0": {
+        "message": "webページの設定に従う(Firefox初期設定)"
+    },
+    "optionLabel1": {
+        "message": "異なるサイトへのリンクをタブで開く"
+    },
+    "optionLabel2": {
+        "message": "全てのリンクをタブで開く"
+    }
+}

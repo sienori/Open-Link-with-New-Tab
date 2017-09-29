@@ -1,0 +1,33 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    
+    "name": "__MSG_extName__",
+    "description": "__MSG_extDescription__",
+    "default_locale": "en",
+    
+    "applications": {
+        "gecko": {
+            "id": "Open-Link-with-New-Tab@sienori"
+        }
+    },
+    
+    "permissions": ["<all_urls>", "storage"],
+    
+    "options_ui": {
+        "page": "options/options.html"
+    },
+
+    "icons": {
+        "512": "images/512.png",
+        "128": "images/128.png",
+        "64": "images/64.png"
+    },
+
+    "content_scripts": [
+        {
+            "matches": ["http://*/*", "https://*/*", "<all_urls>"],
+            "js": ["Open-Link-with-New-Tab.js"]
+        }
+    ]
+}
