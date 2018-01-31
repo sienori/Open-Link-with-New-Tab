@@ -18,6 +18,8 @@ function setBrank(option) {
     }
 }
 
+var url2 = url.match(/^(.*?:\/\/)(.*?)([a-z0-9][a-z0-9\-]{1,63}\.[a-z\.]{2,6})[\:[0-9]*]?([\/].*?)?$/i); //追加
+
 function ifEqualSite(link) {
-    return link.origin == "null" || url.indexOf(link.origin) == 0; //ホスト名で判断
+    return link.origin == "null" || link.origin.indexOf(url2[3]) > 0; //変更
 }
